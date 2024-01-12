@@ -1,3 +1,33 @@
+
+const image = document.querySelector(".img");
+
+const newPicture = ["White and Black Long Fur Cat", "Orange and White Koi Fish Near Yellow Koi Fish", "Group of Horses Running", "Elephant Beside on Baby Elephant", "Blue Geeen and Orange Parrot","Zebras on Zebra"];
+const markup = newPictures
+  .map((picture) => `<ul class="gallery" ${picture}></ul>`)
+  .join("");
+
+list.insertAdjacentHTML("beforeend", markup);
+
+
+
+
+let item of pictures {
+  item.setAttribute("width", "360px");
+  item.setAttribute("height", "300px");
+} 
+
+
+console.log(image.url.alt);
+
+
+
+
+
+
+
+
+
+
 const images = [
   {
     url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -27,3 +57,6 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+
+

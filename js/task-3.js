@@ -9,7 +9,6 @@ function placeholder(){
 nameInput.addEventListener('input', placeholder);
 
 
-;
 
 
 
